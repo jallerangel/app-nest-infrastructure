@@ -1,0 +1,17 @@
+region                          = "us-east-1"
+aws_access_key                  = "aws_access_key"
+aws_secret_access_key           = "aws_secret_access_key"
+default_vpc_name                = "default vpc"
+webserver_security_group_name   = "webserver security group"
+database_security_group_name    = "database security group"
+database_subnet_group_name      = "database-subnets"
+db_instance_engine              = "postgres"
+db_instance_engine_version      = "15"
+db_instance_multi_az            = false
+db_instance_identifier          = "dev-rds-instance"
+db_instance_username            = "userlocal"
+db_instance_password            = "karate02lcl"
+db_instance_instance_class      = "db.t3.micro"
+db_instance_allocated_storage   = 20
+db_instance_db_name             = "anylistdb"
+db_instance_skip_final_snapshot = true
